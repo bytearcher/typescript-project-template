@@ -10,6 +10,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
+    "gaze-run-interrupt": "^1.0.1",
     "jsonlint": "^1.6.2",
     "mocha": "^2.4.5",
     "rimraf": "^2.5.2",
