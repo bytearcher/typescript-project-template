@@ -9,6 +9,8 @@ TypeScript template project with things set up you'd expect in a modern developm
     git commit -m 'initial commit' README.md
     git pull --log https://github.com/bytearcher/typescript-project-template.git
 
+Change project name in created `package.json`.
+
 ## Update latest template to existing project
 
     git pull --log https://github.com/bytearcher/typescript-project-template
