@@ -21,6 +21,6 @@
     "prepublish": "typings install && npm run build",
     "clean": "rimraf dist",
     "build": "npm run clean && jsonlint -i package.json && tsc",
-    "test": "npm run build && cd dist ; mocha"
+    "test": "npm run build && cd dist/js ; mocha"
   }
 }

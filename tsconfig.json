@@ -4,7 +4,7 @@
         "module": "commonjs",
         "diagnostics": true,
         "sourceMap": true,
-        "outDir": "dist",
+        "outDir": "dist/js",
         "noImplicitAny": true
     },
     "exclude": [
