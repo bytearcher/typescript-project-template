@@ -1,8 +1,10 @@
 {
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
+        "**/.git*": true,
         "**/.DS_Store": true,
-        "dist": true
+        "dist": true,
+        "node_modules": true,
+        "typings": true,
+        ".vscode": true
     }
 }
