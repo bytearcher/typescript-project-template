@@ -2,10 +2,10 @@
   "name": "typescript-project-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index.js",
+  "main": "dist/js/src/index.js",
   "files": [
     "src",
-    "dist"
+    "dist/js/src"
   ],
   "dependencies": {},
   "devDependencies": {
