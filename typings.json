@@ -1,10 +1,13 @@
 {
   "name": "typescript-project-template",
-  "dependencies": {
-    "chai": "registry:npm/chai#3.5.0+20160415060238"
-  },
   "globalDependencies": {
-    "mocha": "registry:dt/mocha#2.2.5+20160619032855",
-    "node": "registry:dt/node#6.0.0+20160621231320"
+    "node": "registry:dt/node#6.0.0+20160805072842"
+  },
+  "globalDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160720003353"
+  },
+  "devDependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160723033700",
+    "chai-as-promised": "registry:npm/chai-as-promised#5.1.0+20160310030142"
   }
 }
