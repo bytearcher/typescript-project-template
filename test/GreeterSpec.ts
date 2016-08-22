@@ -2,7 +2,7 @@
 import {assert, expect, use} from 'chai';
 use(require("chai-as-promised"));
 
-import Greeter = require('../src/Greeter');
+import Greeter from '../src/Greeter';
 
 describe('Greeter', () => {
 

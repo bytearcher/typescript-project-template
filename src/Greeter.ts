@@ -1,5 +1,5 @@
 
-export = class Greeter {
+export default class Greeter {
     greet(name: string) {
         return `Hello, ${name}`;
     }
