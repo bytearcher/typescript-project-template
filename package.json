@@ -7,19 +7,23 @@
     "src",
     "dist/js/src"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^6.0.36"
+  },
   "devDependencies": {
+    "@types/chai": "^3.4.31",
+    "@types/chai-as-promised": "0.0.28",
+    "@types/mocha": "^2.2.30",
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "gaze-run-interrupt": "^1.0.1",
     "jsonlint": "^1.6.2",
     "mocha": "^2.4.5",
     "rimraf": "^2.5.2",
-    "typescript": "^1.8.10",
-    "typings": "^1.0.4"
+    "typescript": "next"
   },
   "scripts": {
-    "prepublish": "typings install && npm run build",
+    "prepublish": "npm run build",
     "clean": "rimraf dist",
     "build": "npm run clean && jsonlint -i package.json && tsc",
     "test": "npm run build && cd dist/js ; mocha"

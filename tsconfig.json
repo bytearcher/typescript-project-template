@@ -5,7 +5,8 @@
         "diagnostics": true,
         "sourceMap": true,
         "outDir": "dist/js",
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "types": ["node", "mocha"]
     },
     "exclude": [
         "node_modules",

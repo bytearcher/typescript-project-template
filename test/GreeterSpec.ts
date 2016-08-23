@@ -1,6 +1,7 @@
 
-import {assert, expect, use} from 'chai';
-use(require("chai-as-promised"));
+import { assert, expect, use } from 'chai';
+import * as chaiAsPromised from 'chai-as-promised';
+use(chaiAsPromised);
 
 import Greeter from '../src/Greeter';
 

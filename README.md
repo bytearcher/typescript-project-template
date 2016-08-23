@@ -23,11 +23,11 @@ Change project name and other fields in created `package.json` and re-write the 
 
 ## Build
 
-    npm run clean && npm run build
+    npm run build
 
 ## Test
 
-    npm run clean && npm run build && npm test
+    npm test
 
 ## Test-driven development
 
@@ -35,7 +35,13 @@ Change project name and other fields in created `package.json` and re-write the 
 
 ## Install d.ts definitions
 
-    node_modules/.bin/typings install ...
+Encourage module authors to bundle .d.ts files with NPM packages. Packages use `typings` property in `package.json` to state the location of bundled definition files. TypeScript compiler can work with such projects automatically.
+
+If typings are not available in the NPM package, install types with NPM from the "@types" organization.
+
+    npm install @types/bluebird --save
+
+Use `--save` instead of `--save-dev` to get type dependencies installed downstream when this project is used as a library. (Test related typings can go to `devDependencies`.)
 
 ## Write test
 
