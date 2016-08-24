@@ -8,7 +8,7 @@ TypeScript template project with things set up you'd expect in a modern developm
     touch README.md
     git add README.md
     git commit -m 'initial commit' README.md
-    git pull --log https://github.com/bytearcher/typescript-project-template.git
+    git pull --log --allow-unrelated-histories https://github.com/bytearcher/typescript-project-template.git
     npm install
 
 Change project name and other fields in created `package.json` and re-write the `README.md`.
