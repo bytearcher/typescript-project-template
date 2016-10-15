@@ -2,10 +2,10 @@
   "name": "typescript-project-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/js/src/index.js",
+  "main": "dist/src/index.js",
   "files": [
     "src",
-    "dist/js/src"
+    "dist/src"
   ],
   "dependencies": {
     "@types/node": "^6.0.36"
@@ -27,6 +27,6 @@
     "prepublish": "npm run build",
     "clean": "rimraf dist",
     "build": "npm run clean && jsonlint -i package.json && tsc",
-    "test": "npm run build && tslint --project tsconfig.json && cd dist/js ; mocha"
+    "test": "npm run build && tslint --project tsconfig.json && mocha 'dist/test/**/*Spec.js'"
   }
 }

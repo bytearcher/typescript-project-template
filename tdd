@@ -5,7 +5,6 @@ var gaze_run_interrupt = require('gaze-run-interrupt');
 gaze_run_interrupt('{src,test}/**/*.ts', [{
     command: 'node_modules/.bin/tsc'
 }, {
-    command: '../../node_modules/.bin/mocha',
-    args: ['--reporter', 'min'],
-    cwd: 'dist/js'
+    command: 'node_modules/.bin/mocha',
+    args: ['dist/test/**/*Spec.js', '--reporter', 'min']
 }]);

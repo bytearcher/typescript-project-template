@@ -5,7 +5,7 @@
         "diagnostics": true,
         "sourceMap": true,
         "declaration": true,
-        "outDir": "dist/js",
+        "outDir": "dist",
         "noImplicitAny": true,
         "types": ["node", "mocha"]
     },
