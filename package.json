@@ -20,12 +20,13 @@
     "jsonlint": "^1.6.2",
     "mocha": "^3.1.2",
     "rimraf": "^2.5.2",
+    "tslint": "next",
     "typescript": "next"
   },
   "scripts": {
     "prepublish": "npm run build",
     "clean": "rimraf dist",
     "build": "npm run clean && jsonlint -i package.json && tsc",
-    "test": "npm run build && cd dist/js ; mocha"
+    "test": "npm run build && tslint --project tsconfig.json && cd dist/js ; mocha"
   }
 }
