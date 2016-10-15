@@ -4,6 +4,7 @@
         "module": "commonjs",
         "diagnostics": true,
         "sourceMap": true,
+        "declaration": true,
         "outDir": "dist/js",
         "noImplicitAny": true,
         "types": ["node", "mocha"]
