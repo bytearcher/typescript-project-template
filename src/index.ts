@@ -1,5 +1,5 @@
 
-import Greeter from './Greeter';
+import Greeter from "./Greeter";
 
-var greeter = new Greeter();
+let greeter = new Greeter();
 console.log(greeter.greet("Mike"));
