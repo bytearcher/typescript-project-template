@@ -5,6 +5,7 @@
         "**/.DS_Store": true,
         "dist": true,
         "node_modules": true,
-        ".vscode": true
+        ".vscode": true,
+        "*.sublime-workspace": true        
     }
 }
